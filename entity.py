@@ -14,7 +14,7 @@ def setup():
     assistant = client.beta.assistants.create(
         name="YouTube Trending Videos Assistant",
         instructions="You are a bot to search for trending videos based on user input.",
-        model="gpt-4-turbo-preview",
+        model="gpt-3.5-turbo-0125",
         tools=[
             {
                 "type": "function",
